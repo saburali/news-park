@@ -158,3 +158,26 @@ p {
 .header-topbar .topbar-social .social ul li {
     display: inline-block;
 }
+
+/* Header Top Slider */
+.topbar-trending .trending-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    border: 1px solid rgba(23, 34, 43, 0.25);
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    background: #fff;
+    color: rgb(0 0 0 / 25%);
+}
+
+.topbar-trending .trending-slider .slick-prev.slick-arrow {
+    right: 25px;
+}
+
+.topbar-trending .trending-slider .slick-next.slick-arrow {
+    right: 0px;
+}
