@@ -241,3 +241,43 @@ p {
      color: rgba(23, 34, 43, 0.5);
      margin: 7px;
  }
+
+.select-item {
+    border: 0;
+    border-left: 1.5px solid rgba(23, 34, 43, 0.3);
+    border-right: 1.5px solid rgba(23, 34, 43, 0.3);
+    border-radius: 0;
+    height: 25px;
+    margin-left: 20px;
+    line-height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.select-item select {
+    word-wrap: normal;
+    border: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #515a60;
+    padding-right: 5px;
+}
+
+.header-temperature .icon {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.header-temperature .temperature-content .title {
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.header-temperature .temperature-content .title sup {
+    font-size: 14px;
+}
+
+.header-temperature .temperature-content .title sup sub {
+    font-size: 14px;
+}
