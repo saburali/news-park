@@ -227,3 +227,17 @@ p {
         padding-bottom: 5px;
     }
 }
+
+/* Header Menu Bar */
+.header-menu-rightbar {
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-menu-search ul li a {
+     font-size: 18px;
+     color: rgba(23, 34, 43, 0.5);
+     margin: 7px;
+ }
