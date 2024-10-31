@@ -7,6 +7,7 @@ body {
     font-size: 15px;
     color: #515A60;
     line-height: 24px;
+    background-color: #FCFCFC;
 }
 
 html, body {
@@ -307,4 +308,23 @@ p {
     .header-temperature {
         display: none !important;
     }
+}
+
+/* **********************
+     Post Area Section
+*********************** */
+.post-area {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.single__post .post-content .title a {
+    color: #17222B;
+}
+
+.single__post .post-content .title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 5px;
 }
