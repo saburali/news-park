@@ -84,3 +84,77 @@ html, body {
     font-weight: 900;
     font-style: italic;
 }
+
+/* **********************
+       Common Style
+*********************** */
+p {
+    margin: 0 0 15px;
+}
+
+/* **********************
+         Header
+*********************** */
+/* Header Topper */
+.header-topbar {
+    border-bottom: 1px dashed #DCDEDF;
+}
+
+.topbar-trending > span {
+    float: left;
+    background: #FF5555;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 18px;
+}
+
+.topbar-trending .trending-slider .trending-item {
+    margin-left: 90px;
+}
+
+.topbar-trending .trending-slider .trending-item p {
+    margin-bottom: 0;
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-topbar .topbar-social p {
+    margin-bottom: 0;
+    padding-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-topbar .topbar-social .social ul {
+    margin: 0;
+    padding: 0 0 0 14px;
+    list-style-type: none;
+    position: relative;
+}
+
+.topbar-social .social ul::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(23, 34, 43, 0.3);
+    width: 1px;
+    height: 14px;
+}
+
+.header-topbar .topbar-social .social ul li a {
+    color: rgba(23, 34, 43, 0.75);
+    margin-left: 10px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.header-topbar .topbar-social .social ul li {
+    display: inline-block;
+}
