@@ -11,5 +11,7 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
     });
 
-    jQuery('.stellarnav').stellarNav();
+    jQuery('.stellarnav').stellarNav({
+        breakpoint: 991
+    });
 });
