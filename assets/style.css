@@ -1332,7 +1332,7 @@ a {
         Sports News
 *********************** */
 .sports-news-aria .gallery_item {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .sports-news-aria .gallery_item:last-child {
@@ -1376,19 +1376,6 @@ a {
 .sports-news-aria .next.slick-arrow {
     right: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .sports-news-aria .image-content-overly {
     position: static;
