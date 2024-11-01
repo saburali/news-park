@@ -1671,3 +1671,58 @@ a {
     padding-left: 12px;
     border-left: 2px solid rgba(23, 34, 43, 0.5);
 }
+
+/* **************
+    Newsletter
+************** */
+.newsletter {
+    background: #E9EAEB;
+    padding: 22px;
+    font-size: 17px;
+}
+
+.newsletter .title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.newsletter p {
+    line-height: 27px;
+}
+
+.newsletter .input-box {
+    position: relative;
+}
+
+.newsletter .input-box input {
+    width: 100%;
+    background: #fff;
+    color: rgba(23, 34, 43, 0.5);
+    border: 0;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.newsletter .input-box input:focus {
+    border: 0;
+    outline: none;
+}
+
+.newsletter .input-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    background: #1091FF;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.newsletter span {
+    padding-top: 15px;
+    display: inline-block;
+}
