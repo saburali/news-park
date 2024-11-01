@@ -1142,6 +1142,7 @@ a {
     background: #FF5555;
     font-size: 10px;
     color: #fff;
+    border: 2px solid white;
 }
 
 .video-play-container .post_gallery_items .meta-date span {
