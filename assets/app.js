@@ -58,3 +58,36 @@ $(document).ready(function(){
         ]
     });
 });
+
+$('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    prevArrow: '<span class="prev"><i class="fas fa-angle-left"></i></span>',
+    nextArrow: '<span class="next"><i class="fas fa-angle-right"></i></span>',
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 3,
+                arrows: false,
+            }
+        },
+    ]
+});
