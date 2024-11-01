@@ -278,6 +278,19 @@ a {
     margin-bottom: 0;
 }
 
+/* Flash Icon */
+.flash-icon {
+    height: 30px;
+    width: 30px;
+    background: #FF5555;
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+}
+
 /* **********************
          Header
 *********************** */
@@ -739,4 +752,86 @@ a {
         font-size: 20px;
         margin-bottom: -5px;
     }
+}
+
+/* *********************
+      Trending News
+ ********************* */
+.trending-news .trending-news-slider img {
+    border-radius: 8px;
+    transform: scale(1);
+    transition: 0.4s all ease-in-out;
+}
+
+.trending-news .trending-news-slider .image-content-overly {
+    position: relative;
+}
+
+.trending-news .trending-news-slider .image-content-overly::before {
+    display: none;
+}
+
+.trending-news .image-content-overly .image_inner_content .post-meta .meta-categories a {
+    color: #1091FF;
+}
+
+.trending-news .image-content-overly .image_inner_content .post-meta .meta-date {
+    color: #515A60;
+}
+
+.trending-news .image-content-overly .image_inner_content .post-meta .meta-date::before {
+    background: #B7BABD;
+}
+
+.trending-news .image-content-overly .image_inner_content .title {
+    line-height: 22px;
+}
+
+.trending-news .image-content-overly .image_inner_content .title a {
+    color: #17222B;
+    font-size: 20px;
+}
+
+.trending-news .image-content-overly .image_inner_content p {
+    color: #32373b;
+}
+
+.trending-news .image-content-overly .image_inner_content {
+    padding: 0;
+}
+
+.trending-news-slider .icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9;
+}
+
+.trending-news .news-item:hover img {
+    transform: scale(1.1);
+}
+
+.trending-news .slick-arrow {
+    position: absolute;
+    top: -46px;
+    z-index: 9;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #C1C4C6;
+    font-size: 20px;
+    color: #C1C4C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-news .prev.slick-arrow {
+    right: 50px;
+}
+
+.trending-news .next.slick-arrow {
+    right: 10px;
 }
