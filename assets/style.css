@@ -1623,3 +1623,51 @@ a {
         margin-top: 20px;
     }
 }
+
+/* **********************
+      Upcoming Match
+*********************** */
+.upcoming-match-area .section-title a {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(23, 34, 43, 0.5);
+}
+
+.upcoming-match-area .match-item {
+    width: 100%;
+    border-bottom: 1px dashed #DADCDD;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.upcoming-match-area .matches-content {
+    margin-left: 9px;
+    margin-right: 35px;
+}
+
+.upcoming-match-area .matches-content span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #17222B;
+}
+
+.upcoming-match-area .matches-content span span {
+    display: inline-block;
+    padding: 0 6px;
+    color: rgba(23, 34, 43, 0.5);
+}
+
+.upcoming-match-area .matches-content ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(23, 34, 43, 0.5);
+    line-height: 14px;
+}
+
+.upcoming-match-area .matches-content ul li:last-child {
+    color: #1091FF;
+    margin-left: 12px;
+    padding-left: 12px;
+    border-left: 2px solid rgba(23, 34, 43, 0.5);
+}
