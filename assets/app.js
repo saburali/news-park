@@ -179,3 +179,34 @@ trending_slider.slick({
         },
     ]
 });
+
+// Most View Trending Slider
+var most_view_slider = jQuery('.trending-sidebar-slider');
+most_view_slider.slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+    prevArrow: '<span class="prev"><i class="fas fa-angle-left"></i></span>',
+    nextArrow: '<span class="next"><i class="fas fa-angle-right"></i></span>',
+    speed: 1000,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                arrows: false,
+                slidesToShow: 1,
+            }
+        },
+    ]
+});

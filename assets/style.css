@@ -875,8 +875,20 @@ a {
 }
 
 /* Trending Most View */
+.trending-sidebar-slider {
+    margin-top: -10px;
+}
+
 .trending-most-view .gallery_item {
     margin-bottom: 30px;
+}
+
+.trending-most-view .gallery_item:first-child {
+    padding-top: 5px;
+}
+
+.trending-most-view .gallery_item:first-child .icon {
+    top: -3px;
 }
 
 .trending-most-view .gallery_item::before {
@@ -890,8 +902,8 @@ a {
 
 .trending-sidebar-slider .icon {
     position: absolute;
-    top: -8px;
-    left: -8px;
+    top: -4px;
+    left: 0;
 }
 
 .trending-sidebar-slider .post_gallery_items {
@@ -909,4 +921,8 @@ a {
     font-weight: 500;
     color: #CED0D2;
     background-color: white;
+}
+
+.trending-news .trending-sidebar-slider .slick-arrow {
+    top: -34px;
 }
