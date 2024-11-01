@@ -855,3 +855,9 @@ a {
         margin-top: 18px;
     }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .trending-social a .flex-grow-1 {
+        display: none;
+    }
+}
