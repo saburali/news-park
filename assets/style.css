@@ -1787,7 +1787,6 @@ a {
 .footer-aria {
     background: #17222B;
     padding-top: 60px;
-    padding-bottom: 50px;
 }
 
 .footer-topbar {
@@ -1968,4 +1967,52 @@ a {
     border-top: 2px dashed #3A434B;
     margin-top: 40px;
     padding-top: 32px;
+}
+
+/* Footer Copywring */
+.footer-copyright {
+    background: #232D36;
+}
+
+.footer-copyright .copyright-item p {
+    padding: 37px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 0;
+}
+
+.footer-copyright .copyright-item ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-copyright .copyright-item ul li {
+    display: inline-block;
+}
+
+.footer-copyright .copyright-item ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    margin-left: 35px;
+    transition: 0.4s all ease-in-out;
+}
+
+.footer-copyright .copyright-item ul li a:hover {
+    color: #1091FF;
+}
+
+@media only screen and (max-width: 767px) {
+    .copyright-item {
+        text-align: center;
+        padding-bottom: 27px;
+    }
+
+    .footer-aria .widget-list {
+         border-right: 0;
+         padding-right: 0;
+         text-align: center;
+    }
 }
