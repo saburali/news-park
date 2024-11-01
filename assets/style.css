@@ -546,3 +546,54 @@ a {
         font-size: 12px;
     }
 }
+
+/* Post Gallery Item */
+.post-gallery .post_gallery_items .gallery_item {
+    margin-bottom: 30px;
+}
+
+.post-gallery .post_gallery_items .gallery_item.gallery_item::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -15px;
+    border-bottom: 1px dashed #DADCDD;
+    width: 100%;
+}
+
+.post-gallery .post_gallery_items .post-meta .meta-categories a {
+    color: #1091FF;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.post-gallery .post_gallery_items .post-meta .meta-date {
+    padding-left: 32px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    color: #515A60;
+}
+
+.post-gallery .post_gallery_items .post-meta .meta-date::before {
+    position: absolute;
+    content: '';
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(40deg);
+    width: 2px;
+    height: 15px;
+    background: #515A60;
+    border-radius: 30px;
+}
+
+.post-gallery .post_gallery_items .gallery_item .title {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.post-gallery .post_gallery_items .gallery_item .title a {
+    color: #17222B;
+}
