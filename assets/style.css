@@ -1780,3 +1780,79 @@ a {
 .categories-area .categories-content a:hover span {
     color: #1091FF;
 }
+
+/* ***************
+  Footer Section
+*************** */
+.footer-aria {
+    background: #17222B;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.footer-topbar {
+    border-bottom: 2px dashed #3A434B;
+    padding-bottom: 40px;
+}
+
+.footer-logo ul {
+    margin: 35px 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-logo ul li {
+    display: inline-block;
+}
+
+.footer-logo ul li a {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.07);
+    display: inline-block;
+}
+
+
+.footer-newaletter .input-box {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footer-topbar .input-box input {
+    width: 100%;
+    border: 0;
+    background: #fff;
+    height: 50px;
+    padding-left: 20px;
+    color: rgba(23, 34, 43, 0.5);
+}
+
+.footer-topbar .input-box input:focus {
+    outline: none;
+}
+
+.footer-topbar .input-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 110px;
+    background: #1091FF;
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-topbar {
+        padding-top: 20px;
+    }
+
+    .footer-logo ul {
+        margin: 15px 0 15px;
+        text-align: center;
+    }
+}
