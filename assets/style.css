@@ -1604,3 +1604,22 @@ a {
 .most-share-area .next.slick-arrow {
     right: 10px;
 }
+
+/* Responsive */
+@media only screen and (max-width: 1399px) {
+    .most-share-area {
+        margin-top: 22vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .most-share-area {
+        margin-top: 45vh;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .most-share-area {
+        margin-top: 20px;
+    }
+}
