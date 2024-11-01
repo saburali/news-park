@@ -1327,3 +1327,127 @@ a {
         margin-top: 55vh;
     }
 }
+
+/* **********************
+        Sports News
+*********************** */
+.sports-news-aria .gallery_item {
+    margin-bottom: 30px;
+}
+
+.sports-news-aria .gallery_item:last-child {
+    margin-bottom: 0;
+}
+
+.sports-news-aria .gallery_item::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -15px;
+    border-bottom: 1px dashed #DADCDD;
+    width: 100%;
+}
+
+.sports-news-aria .gallery_item:last-child:before {
+    display: none;
+}
+
+.sports-news-aria .slick-arrow {
+    position: absolute;
+    top: -34px;
+    z-index: 9;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #C1C4C6;
+    font-size: 20px;
+    color: #C1C4C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports-news-aria .prev.slick-arrow {
+    right: 45px;
+}
+
+.sports-news-aria .next.slick-arrow {
+    right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sports-news-aria .image-content-overly {
+    position: static;
+}
+
+.sports-news-aria .image-content-overly::before {
+    display: none;
+}
+
+.sports-news-aria .image_inner_content .meta-categories a {
+    color: blue !important;
+}
+
+.sports-news-aria .meta-date::before {
+    background-color: #515a60 !important;
+}
+
+.sports-news-aria .image-content-overly .image_inner_content {
+    padding: 0;
+}
+
+.sports-news-aria .image_inner_content .meta-date span,
+.sports-news-aria .image_inner_content p {
+    color: black;
+}
+
+.sports-news-aria .image_inner_content .title {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 8px 0;
+}
+
+.sports-news-aria .image_inner_content .title a {
+    color: #17222B;
+}
+
+.sports-news-aria .left-sport img {
+    border-radius: 8px;
+    transition: 0.4s all ease-in-out;
+}
+
+.sports-news-aria .left-sport:hover img {
+    transform: scale(1.2);
+}
+
+.sports-news-aria a.btn  {
+    border: 2px solid #50585F;
+    line-height: 40px;
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    border-radius: 0;
+    transition: 0.4s all ease-in-out;
+}
+
+.sports-news-aria a.btn:hover  {
+    color: white;
+    border: 2px solid blue;
+    background-color: blue;
+}
