@@ -693,3 +693,50 @@ a {
         padding: 0 20px;
     }
 }
+
+/* *********************
+     Feature Post Area
+*********************** */
+.feature-post-slider .image-content-overly .image_inner_content .title {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.feature-post-slider .image-content-overly .image_inner_content {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.feature-post-slider .slick-arrow {
+    position: absolute;
+    top: -46px;
+    z-index: 9;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #C1C4C6;
+    font-size: 20px;
+    color: #C1C4C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-post-slider .prev.slick-arrow {
+    right: 50px;
+}
+
+.feature-post-slider .next.slick-arrow {
+    right: 10px;
+}
+
+/* Feature post responsive */
+@media only screen and (max-width: 575px) {
+    .section-title .title {
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+}

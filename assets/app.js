@@ -16,8 +16,8 @@ $(document).ready(function(){
     });
 
     // Post Area Slider
-    var Slider5 = jQuery('.post-slider');
-    Slider5.slick({
+    var post_area = jQuery('.post-slider');
+    post_area.slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
@@ -87,6 +87,50 @@ $('.slider-nav').slick({
             settings: {
                 slidesToShow: 3,
                 arrows: false,
+            }
+        },
+    ]
+});
+
+//===== BRAND SLICK SLIDER
+
+var feature_post = jQuery('.feature-post-slider');
+feature_post.slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+    prevArrow: '<span class="prev"><i class="fas fa-angle-left"></i></span>',
+    nextArrow: '<span class="next"><i class="fas fa-angle-right"></i></span>',
+    speed: 1000,
+    responsive: [
+        {
+            breakpoint: 1140,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                arrows: false,
+                slidesToShow: 1,
             }
         },
     ]
