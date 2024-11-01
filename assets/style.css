@@ -1100,7 +1100,7 @@ a {
 .video-play-post-area .video-play-container {
     padding: 20px;
     margin-top: -14.3vh;
-    background-color: #FFFFFF;
+    background-color: #fcfcfc;
 }
 
 .video-play-post-area .video-play-container .video-item {
@@ -1578,4 +1578,29 @@ a {
 
 .most-share-area .gallery_items .gallery_item.gallery_item:last-child::before {
     display: none;
+}
+
+.most-share-area .slick-arrow {
+    position: absolute;
+    top: -34px;
+    z-index: 9;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 27px;
+    border: 2px solid #C1C4C6;
+    font-size: 20px;
+    color: #C1C4C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.most-share-area .prev.slick-arrow {
+    right: 50px;
+}
+
+.most-share-area .next.slick-arrow {
+    right: 10px;
 }
