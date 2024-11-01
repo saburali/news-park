@@ -309,22 +309,28 @@ a {
     background-color: #17222B;
 }
 
+@media only screen and (max-width: 1399px) {
+    .dark-bg {
+        height: 81.5vh;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .dark-bg {
-        height: 70vh;
+        height: 77vh;
         margin-top: 20vh;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .dark-bg {
-        height: 40vh;
+        height: 70vh;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .dark-bg {
-        height: 65vh;
+        height: 73vh;
     }
 }
 
@@ -1188,6 +1194,22 @@ a {
     right: 0;
 }
 
+@media only screen and (max-width: 1200px) {
+    .video-play-post-area .video-play-container {
+        margin-top: -2.3vh;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .video-play-post-area .video-play-container {
+        margin-top: 1.7vh;
+    }
+
+    .video-play-post-area .video-play-container .video-item {
+        margin-bottom: 20px;
+    }
+}
+
 /* **********************
   Entertainment News
 *********************** */
@@ -1248,4 +1270,60 @@ a {
 
 .entertainment-news-aria .entertainment-news-container .circle-bar img {
     width: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .entertainment-news-aria {
+        margin-top: 17vh;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .entertainment-news-aria {
+        margin-top: 66vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .entertainment-news-aria {
+        margin-top: 72vh;
+    }
+
+    .entertainment-news-aria .col-lg-6 {
+        margin-bottom: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .entertainment-news-aria {
+        margin-top: 67vh;
+    }
+
+    .entertainment-news-aria .image_inner_content .title {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .entertainment-news-aria {
+        margin-top: 62vh;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .entertainment-news-aria {
+        margin-top: 54vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .entertainment-news-aria {
+        margin-top: 50vh;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .entertainment-news-aria {
+        margin-top: 55vh;
+    }
 }
