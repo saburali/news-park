@@ -614,3 +614,30 @@ a {
 .post-gallery .nav .nav-link.active {
     background: #1091FF;
 }
+
+/* Post Nav Item Responsive */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .post-gallery .nav .nav-link {
+        padding: 0 20px;
+    }
+
+    .post-gallery .post_gallery_items .post-meta .meta-date span {
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .post-gallery .nav {
+        margin-top: 25px;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .post-gallery .nav {
+        margin-top: 15px;
+    }
+    .post-gallery .nav .nav-link {
+        padding: 0 20px;
+    }
+}
