@@ -835,3 +835,23 @@ a {
 .trending-news .next.slick-arrow {
     right: 10px;
 }
+
+.trending-social a {
+    color: white;
+    background: #3B5998;
+    display: inline-block;
+    width: 100%;
+}
+
+.trending-social a.item-1 {background: #3B5998;}
+.trending-social a.item-2 {background: #1DA1F2;}
+.trending-social a.item-3 {background: #FF5050;}
+.trending-social a.item-4 {background: #9B45D5;}
+.trending-social a.item-5 {background: #c4ea1a;}
+.trending-social a.item-6 {background: #00AB6C;}
+
+@media only screen and (max-width: 757px) {
+    .trending-social {
+        margin-top: 18px;
+    }
+}
