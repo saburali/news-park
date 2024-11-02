@@ -304,33 +304,62 @@ a {
 }
 
 .dark-bg {
-    height: 98vh;
-    margin-top: 30vh;
+    /*height: 98vh;*/
+    /*margin-top: 30vh;*/
+    /*background-color: #17222B;*/
+    position: relative;
+}
+
+.dark-bg::before {
+    content: '';
+    width: 100%;
+    height: 753px;
+    position: absolute;
     background-color: #17222B;
+    top: 18%;
+    z-index: -1;
+}
+
+.bg-partition {
+    height: 140px;
+    position: relative;
+}
+
+.bg-partition::before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    background-color: #17222B;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 
 @media only screen and (max-width: 1399px) {
     .dark-bg {
-        height: 81.5vh;
+        /*height: 81.5vh;*/
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .dark-bg {
-        height: 77vh;
-        margin-top: 20vh;
+    .dark-bg::before {
+        height: 730px;
+        top: 18%;
     }
 }
 
 @media only screen and (max-width: 991px) {
-    .dark-bg {
-        height: 70vh;
+    .dark-bg::before {
+        height: 586px;
+        top: 11%;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .dark-bg {
-        height: 73vh;
+    .dark-bg::before {
+        height: 600px;
     }
 }
 
@@ -998,7 +1027,7 @@ a {
  *********************** */
 .center-play-post-area .center-play-container {
     padding: 30px;
-    top: -33vh;
+    /*top: -33vh;*/
     background: #FCFCFC;
     position: relative;
 }
@@ -1067,7 +1096,7 @@ a {
 /* Center Play Responsive */
 @media only screen and (max-width: 1200px) {
     .center-play-post-area .center-play-container {
-        top: -20vh;
+        /*top: -20vh;*/
     }
 }
 
@@ -1090,7 +1119,7 @@ a {
     }
 
     .center-play-post-area .center-play-container {
-        top: -17vh;
+        /*top: -17vh;*/
     }
 }
 
@@ -1099,12 +1128,13 @@ a {
 *********************** */
 .video-play-post-area .video-play-container {
     padding: 20px;
-    margin-top: -14.3vh;
+    /*margin-top: -14.3vh;*/
     background-color: #fcfcfc;
 }
 
 .video-play-post-area .video-play-container .video-item {
-    margin-top: -17vh;
+    /*margin-top: -17vh;*/
+    margin-top: -120px;
 }
 
 .video-play-post-area .video-play-container .video-item .title {
@@ -1197,13 +1227,13 @@ a {
 
 @media only screen and (max-width: 1200px) {
     .video-play-post-area .video-play-container {
-        margin-top: -2.3vh;
+        /*margin-top: -2.3vh;*/
     }
 }
 
 @media only screen and (max-width: 991px) {
     .video-play-post-area .video-play-container {
-        margin-top: 1.7vh;
+        /*margin-top: 1.7vh;*/
     }
 
     .video-play-post-area .video-play-container .video-item {
@@ -1215,7 +1245,7 @@ a {
   Entertainment News
 *********************** */
 .entertainment-news-aria {
-    margin-top: 15vh;
+    /*margin-top: 15vh;*/
 }
 
 .entertainment-news-aria .image-content-overly {
@@ -1275,19 +1305,19 @@ a {
 
 @media only screen and (max-width: 1200px) {
     .entertainment-news-aria {
-        margin-top: 17vh;
+        /*margin-top: 17vh;*/
     }
 }
 
 @media only screen and (max-width: 991px) {
     .entertainment-news-aria {
-        margin-top: 66vh;
+        /*margin-top: 66vh;*/
     }
 }
 
 @media only screen and (max-width: 767px) {
     .entertainment-news-aria {
-        margin-top: 72vh;
+        /*margin-top: 72vh;*/
     }
 
     .entertainment-news-aria .col-lg-6 {
@@ -1297,7 +1327,7 @@ a {
 
 @media only screen and (max-width: 575px) {
     .entertainment-news-aria {
-        margin-top: 67vh;
+        /*margin-top: 67vh;*/
     }
 
     .entertainment-news-aria .image_inner_content .title {
@@ -1307,25 +1337,25 @@ a {
 
 @media only screen and (max-width: 500px) {
     .entertainment-news-aria {
-        margin-top: 62vh;
+        /*margin-top: 62vh;*/
     }
 }
 
 @media only screen and (max-width: 450px) {
     .entertainment-news-aria {
-        margin-top: 54vh;
+        /*margin-top: 54vh;*/
     }
 }
 
 @media only screen and (max-width: 400px) {
     .entertainment-news-aria {
-        margin-top: 50vh;
+        /*margin-top: 50vh;*/
     }
 }
 
 @media only screen and (max-width: 350px) {
     .entertainment-news-aria {
-        margin-top: 55vh;
+        /*margin-top: 55vh;*/
     }
 }
 
@@ -1515,7 +1545,7 @@ a {
       Most Share
 ******************** */
 .most-share-area {
-    margin-top: 15vh;
+    /*margin-top: 15vh;*/
 }
 
 .most-share-area .mo-title a {
@@ -1608,13 +1638,13 @@ a {
 /* Responsive */
 @media only screen and (max-width: 1399px) {
     .most-share-area {
-        margin-top: 22vh;
+        /*margin-top: 22vh;*/
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .most-share-area {
-        margin-top: 45vh;
+        /*margin-top: 45vh;*/
     }
 }
 
