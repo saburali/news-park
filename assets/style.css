@@ -653,8 +653,12 @@ a {
     justify-content: center;
 }
 
-.post-gallery .slider-nav img {
-    /*width: 80px;*/
+.post-gallery .slider-for .icon.play {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 99999;
+    transform: scale(1.4);
 }
 
 .post-gallery .slick-arrow {
