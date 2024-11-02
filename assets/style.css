@@ -2050,3 +2050,20 @@ a {
          text-align: center;
     }
 }
+
+/* Modal Video */
+.modal iframe {
+    height: 450px;
+}
+
+@media only screen and (max-width: 991px) {
+    .modal iframe {
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .modal iframe {
+        height: auto;
+    }
+}
