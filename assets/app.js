@@ -240,3 +240,35 @@ center_post.slick({
         },
     ]
 });
+
+// Preloader logic based on real-time network speed
+const preloader = document.getElementById("preloader");
+const loaderProgress = document.getElementById("loaderProgress");
+const loaderText = document.getElementById("loaderText");
+
+// Set overflow hidden to body to prevent scrolling during preloader
+document.body.style.overflow = "hidden";
+
+let progress = 0;
+
+// Simulate loading process
+const interval = setInterval(() => {
+    // Increment progress
+    progress += Math.random() * 10; // Adjust speed based on requirement
+
+    // Set the width and text based on progress
+    loaderProgress.style.width = `${Math.min(progress, 100)}%`;
+    loaderText.textContent = `Loading... ${Math.floor(Math.min(progress, 100))}%`;
+
+    // When loading is complete
+    if (progress >= 100) {
+        clearInterval(interval);
+
+        // Fade out the preloader
+        preloader.style.opacity = "0";
+        preloader.style.visibility = "hidden";
+
+        // Enable scrolling by setting overflow back to auto
+        document.body.style.overflow = "auto";
+    }
+}, 100); // Adjust speed as per requirement (in milliseconds)
